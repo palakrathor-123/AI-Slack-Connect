@@ -20,8 +20,8 @@ ai_services.py: Dedicated space for future AI/Machine Learning logic integration
 
 ##  Functional Requirements
 ### 1. Slack Event Integration
-URL Verification: Handles Slack's challenge request to verify the server.
-Event Filtering: Specifically listens for message events while ignoring bot-generated messages to prevent infinite loops.
+* URL Verification: Handles Slack's challenge request to verify the server.
+* Event Filtering: Specifically listens for message events while ignoring bot-generated messages to prevent infinite loops.
 ### 2. Message Processing
 Text Normalization: Converts incoming text to lowercase for consistent keyword matching.
 Conditional Logic: Triggers specific responses based on keywords like "hello" or "how are you".
