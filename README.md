@@ -32,17 +32,17 @@
 
 ## Technical Workflow
 ### Event Handling Logic
-Step   Action          Description
+* Step   Action          Description
 1      Request         Slack sends a POST request with message data.
 2      Validation       Server checks if the message is from a human user.
 3       Logic            Code matches keywords (e.g., "How are you").
 4       Response          Bot sends a reply via chat.postMessage API.
 ---
 ## How to run
-### Install Dependencies: pip install fastapi uvicorn slack_sdk python-dotenv
-### Setup ngrok: ngrok http 8000
-### Run Application: uvicorn app:app --reload
-### Configure Slack: Update the Event Subscriptions URL in Slack Dashboard with your ngrok address.
+### * Install Dependencies: pip install fastapi uvicorn slack_sdk python-dotenv
+### * Setup ngrok: ngrok http 8000
+### * Run Application: uvicorn app:app --reload
+### * Configure Slack: Update the Event Subscriptions URL in Slack Dashboard with your ngrok address.
 ---
 ## Author
 ### Palak Rathor
