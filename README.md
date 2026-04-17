@@ -1,21 +1,21 @@
 # AI-Slack-Connect - MyDevBot
 ---
 ## Project Description
-This project is a real-time AI-powered Slack bot designed to automate workspace interactions. It leverages FastAPI for high-performance request handling and the Slack SDK to communicate seamlessly within Slack channels.
+* This project is a real-time AI-powered Slack bot designed to automate workspace interactions. It leverages FastAPI for high-performance request handling and the Slack SDK to communicate seamlessly within Slack channels.
 ---
 
 ## Objective
 ### The main goal is to build an intelligent assistant that:
-Monitors Slack channel activities in real-time.
-Responds to user queries (e.g., "How are you") automatically.
-Provides a scalable foundation for adding AI/LLM capabilities later.
+* Monitors Slack channel activities in real-time.
+* Responds to user queries (e.g., "How are you") automatically.
+* Provides a scalable foundation for adding AI/LLM capabilities later.
 ---
 
 ## Core Components
 ### The project is structured into modular services:
-app.py: The main FastAPI entry point that handles Slack Event API requests.
-slack_services.py: Contains logic for sending messages and interacting with Slack WebClient.
-ai_services.py: Dedicated space for future AI/Machine Learning logic integration.
+* app.py: The main FastAPI entry point that handles Slack Event API requests.
+* slack_services.py: Contains logic for sending messages and interacting with Slack WebClient.
+* ai_services.py: Dedicated space for future AI/Machine Learning logic integration.
 ---
 
 ##  Functional Requirements
