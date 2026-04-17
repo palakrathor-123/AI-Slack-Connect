@@ -23,11 +23,11 @@ ai_services.py: Dedicated space for future AI/Machine Learning logic integration
 * URL Verification: Handles Slack's challenge request to verify the server.
 * Event Filtering: Specifically listens for message events while ignoring bot-generated messages to prevent infinite loops.
 ### 2. Message Processing
-Text Normalization: Converts incoming text to lowercase for consistent keyword matching.
-Conditional Logic: Triggers specific responses based on keywords like "hello" or "how are you".
+* Text Normalization: Converts incoming text to lowercase for consistent keyword matching.
+* Conditional Logic: Triggers specific responses based on keywords like "hello" or "how are you".
 ### 3. Connection & Security
-ngrok Tunneling: Creates a secure public URL for Slack to reach the local development server.
-Token Authentication: Uses SLACK_BOT_TOKEN for secure API authorization.
+* ngrok Tunneling: Creates a secure public URL for Slack to reach the local development server.
+* Token Authentication: Uses SLACK_BOT_TOKEN for secure API authorization.
 ---
 
 ## Technical Workflow
